@@ -1,0 +1,21 @@
+git init
+git add file1.txt
+git add file2.txt
+git add file3.txt
+git rm -f file3.txt
+git add file3.txt
+git commit -m 'Instruction files'
+git remote add origin https://github.com/omareltoukhy/omarH.project.git
+git push -u origin master
+git branch ReadMe
+git checkout ReadMe
+git add README.md
+git commit -m 'This is the read me file'
+git checkout master
+git merge ReadMe
+git push -u origin master
+git add AllMyCommands.txt
+git commit -m 'All My Commands that has been used'
+git push -u origin master
+
+
